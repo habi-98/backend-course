@@ -5,7 +5,6 @@ const router = express.Router();
 
 
 router.get('/', async (req, res) => {
-    console.log('ressss')
     try {
         const products = await Product.find()
 
