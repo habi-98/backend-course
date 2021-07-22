@@ -1,5 +1,10 @@
 <template>
-    <Header/>
+    <div class="layouts">
+        <Header/>
+        <router-view />
+    </div>
+
+
 </template>
 
 
