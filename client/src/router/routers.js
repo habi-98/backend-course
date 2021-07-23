@@ -1,12 +1,12 @@
 import MainLayouts from "../layouts/MainLayouts";
-import HelloWorld from "../components/HelloWorld";
+import Products from "../components/Products";
 
 const routes = [
     {
         path: '/', component: MainLayouts,
         children: [
             {
-                path: '', component: HelloWorld
+                path: '', component: Products
             }
         ]
     },

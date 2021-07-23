@@ -1,6 +1,10 @@
 .header {
-  display: flex;
-  align-items: center;
+  & .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }
 
 .main-nav {
@@ -9,5 +13,16 @@
   &__ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  &__item {
+    padding: 0 16px;
+  }
+  &__link {
+    color: #000;
+    font-size: 21px;
+    text-transform: capitalize;
+    text-decoration: none;
   }
 }
