@@ -6,6 +6,11 @@
 
 <script>
     export default {
-        name: 'ProductCard'
+        name: 'ProductCard',
+        props: {
+            data: {
+                type: Object
+            }
+        }
     }
 </script>
